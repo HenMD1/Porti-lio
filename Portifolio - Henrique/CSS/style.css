@@ -1,0 +1,161 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+}
+
+p{
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#TopBar{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Home{
+    background-color: rgb(235, 235, 235);
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#Infos{
+    background-color: rgb(235, 235, 235);
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+#Contatos{
+    height: 250px;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#Projetos{
+    background-color: rgb(100, 230, 165);
+    height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 200px;
+}
+
+#Project{
+    margin: 60px;
+    width: 25%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 15px 15px black;
+}
+
+#TitleProjects{
+    position: absolute;
+    font-weight: bold;
+    font-size: 100px;
+    top: 125%;
+    color: white;
+}
+
+#Information{
+    margin: 60px;
+    width: 35%;
+    height: 40%;
+    background-color: rgb(100, 230, 165);
+    box-shadow: 15px 15px black;
+}
+
+#TitleInfos{
+    position: absolute;
+    font-weight: bold;
+    font-size: 100px;
+    top: 240%;
+}
+
+
+
+#Name{
+    position: absolute;
+    font-size: 100px;
+    top: 40%;
+    font-weight: bold;
+}
+
+#SubNome{
+    position: absolute;
+    top: 50%;
+    font-size: 80px;
+    margin: 100px;
+}
+
+#Anch_Projetos{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 70px;
+}
+
+#Anch_Infos{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 70px;
+}
+
+#Anch_Contato{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 70px;    
+}
+
+#Email,#Discord,#Telefone,#X,#Instagram{
+    width: 15%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Icon{
+    max-width: 20%;
+}
+
+#ContactAnchs{
+    display: flex;
+    justify-content: center;
+}
+
